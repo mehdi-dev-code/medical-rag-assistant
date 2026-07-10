@@ -135,6 +135,8 @@ Commands: type a question, or `history`, `eval`, `exit`.
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
 ```
 medical-rag-fullstack/
 ├── main.py                    # CLI entry point
@@ -152,19 +154,18 @@ medical-rag-fullstack/
 ├── backend/
 │   ├── app.py                   # FastAPI wrapper around src/
 │   └── requirements.txt          # Backend-only deps (references ../requirements.txt)
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx               # Layout + state
-│   │   ├── api.js                # Backend API client
-│   │   ├── components/
-│   │   │   ├── Sidebar.jsx        # Status + knowledge base list
-│   │   │   ├── ChatThread.jsx      # Message list
-│   │   │   ├── MessageBubble.jsx   # Markdown rendering, source/general badges
-│   │   │   ├── ChatInput.jsx       # Input bar
-│   │   │   └── RetrievalTrace.jsx  # Live retrieval visualization + eval
-│   │   └── styles/                # Design tokens + component styles
-│   └── package.json
-└── RUNNING_THE_APP.md          # Detailed run instructions
+└── frontend/
+    ├── src/
+    │   ├── App.jsx               # Layout + state
+    │   ├── api.js                # Backend API client
+    │   ├── components/
+    │   │   ├── Sidebar.jsx        # Status + knowledge base list
+    │   │   ├── ChatThread.jsx      # Message list
+    │   │   ├── MessageBubble.jsx   # Markdown rendering, source/general badges
+    │   │   ├── ChatInput.jsx       # Input bar
+    │   │   └── RetrievalTrace.jsx  # Live retrieval visualization + eval
+    │   └── styles/                # Design tokens + component styles
+    └── package.json
 ```
 
 ## ⚙️ Key Features
