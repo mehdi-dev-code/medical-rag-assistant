@@ -133,7 +133,9 @@ Commands: type a question, or `history`, `eval`, `exit`.
 
 ## 📁 Project Structure
 
-'''
+## 📁 Project Structure
+
+```
 medical-rag-fullstack/
 ├── main.py                    # CLI entry point
 ├── requirements.txt            # Core Python dependencies
@@ -163,7 +165,7 @@ medical-rag-fullstack/
 │   │   └── styles/                # Design tokens + component styles
 │   └── package.json
 └── RUNNING_THE_APP.md          # Detailed run instructions
-'''
+```
 
 ## ⚙️ Key Features
 
