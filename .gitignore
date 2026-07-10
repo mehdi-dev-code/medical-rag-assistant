@@ -1,0 +1,34 @@
+# ---- Secrets ----
+.env
+.env.local
+*.env
+
+# ---- Python (backend, src) ----
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# ---- Vector store / generated data ----
+embeddings/
+*.faiss
+*.pkl
+
+# ---- Node / React (frontend) ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# ---- Large/raw datasets (keep out of git) ----
+documents/mtsamples.csv
+documents/PubMed*.csv
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
